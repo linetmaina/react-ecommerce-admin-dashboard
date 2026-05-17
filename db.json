@@ -1,0 +1,32 @@
+{
+  "store_info": [
+    {
+      "id": 1,
+      "name": "Urban Kicks",
+      "description": "Premium sneakers and streetwear",
+      "phone_number": "555-1111"
+    }
+  ],
+
+  "products": [
+    {
+      "id": 1,
+      "name": "Nike Air Force 1",
+      "category": "Sneakers",
+      "description": "Classic white sneakers",
+      "price": 120,
+      "stock": 15,
+      "image": "https://images.unsplash.com/photo-1542291026..."
+    },
+
+    {
+      "id": 2,
+      "name": "Adidas Campus",
+      "category": "Sneakers",
+      "description": "Retro retro sneakers",
+      "price": 95,
+      "stock": 10,
+      "image": "https://images.unsplash.com/photo..."
+    }
+  ]
+}
