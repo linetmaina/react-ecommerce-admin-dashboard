@@ -56,7 +56,7 @@ src/
 ### 1. Clone the Repository
 
 ```bash
-git clone https://github.com/linetmaina/react-ecommerce-admin-dashboard
+git clone https://github.com/linetnmaina/react-ecommerce-admin-dashboard.git
 ```
 
 ### 2. Navigate into the Project Folder
@@ -81,6 +81,13 @@ npm install
 npm run dev
 ```
 
+The frontend runs on:
+
+```txt
+https://linetmaina.github.io/react-ecommerce-admin-dashboard/
+```
+
+---
 
 ## Running the Backend Server
 
@@ -92,7 +99,7 @@ Run:
 npm run server
 ```
 
-The backend server runs on:
+Backend API:
 
 ```txt
 https://urbankicks-json-server.onrender.com/products
@@ -126,10 +133,12 @@ The application supports full CRUD operations:
 ## Hooks Used
 
 ### Standard Hooks
+
 - useState
 - useEffect
 
 ### Custom Hook
+
 - useProducts()
 
 ---
@@ -146,10 +155,10 @@ The project includes tests for:
 
 ## Known Limitations
 
-- Data persistence depends on JSON Server running locally
-- No authentication system implemented
-- No cloud database integration
-- Product images rely on external URLs
+- Backend is deployed using JSON Server on Render free tier.
+- Initial loading may take a few seconds if the Render server is inactive.
+- No authentication system implemented.
+- Product images rely on external URLs.
 
 ---
 
@@ -158,8 +167,6 @@ The project includes tests for:
 - User authentication
 - Dark mode toggle
 - Product categories filtering
-- Dashboard analytics
-- Cloud database integration
 
 ---
 
