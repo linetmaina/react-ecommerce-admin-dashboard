@@ -7,7 +7,7 @@ import Navbar from "./components/Navbar";
 
 function App() {
   return (
-    <BrowserRouter>
+    <BrowserRouter basename="/react-ecommerce-admin-dashboard">
       <Navbar />
 
       <Routes>

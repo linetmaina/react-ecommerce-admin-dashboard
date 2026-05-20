@@ -2,7 +2,7 @@
 
 ## Overview
 
-Urban Strides Admin Dashboard is a React-based Single Page Application (SPA) built for managing products in an e-commerce sneaker store. The application demonstrates modern React development practices including client-side routing, CRUD operations, state management with hooks, reusable components, testing, and responsive design.
+Urban Kicks Admin Dashboard is a React-based Single Page Application (SPA) built for managing products in an e-commerce sneaker store. The application demonstrates modern React development practices including client-side routing, CRUD operations, state management with hooks, reusable components, testing, and responsive design.
 
 ---
 
@@ -95,7 +95,7 @@ npm run server
 The backend server runs on:
 
 ```txt
-http://localhost:3001
+https://urbankicks-json-server.onrender.com/products
 ```
 
 ---

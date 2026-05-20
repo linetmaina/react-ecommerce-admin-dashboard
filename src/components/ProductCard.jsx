@@ -3,24 +3,37 @@ import { Link } from "react-router-dom";
 function ProductCard({ product, handleDelete }) {
   return (
     <article className="product-card">
-      <img src={product.image} alt={product.name} />
+      <div className="product-image-wrapper">
+        <img src={product.image} alt={product.name} />
+        <span className="stock-badge">{product.stock} in stock</span>
+      </div>
 
-      <h3>{product.name}</h3>
-      <p>{product.description}</p>
-      <p>Category: {product.category}</p>
-      <p>Price: ${product.price}</p>
-      <p>Stock: {product.stock}</p>
+      <div className="product-info">
+        <p className="product-category">{product.category}</p>
 
-      <Link to={`/products/${product.id}`}>
-        <button>Edit</button>
-      </Link>
+        <h3>{product.name}</h3>
 
-      <button
-        className="delete-btn"
-        onClick={() => handleDelete(product.id)}
-      >
-        Delete
-      </button>
+        <p className="product-description">
+          {product.description}
+        </p>
+
+        <div className="product-footer">
+          <strong>{product.price}</strong>
+
+          <div className="product-actions">
+            <Link to={`/products/${product.id}`}>
+              <button>Edit</button>
+            </Link>
+
+            <button
+              className="delete-btn"
+              onClick={() => handleDelete(product.id)}
+            >
+              Delete
+            </button>
+          </div>
+        </div>
+      </div>
     </article>
   );
 }

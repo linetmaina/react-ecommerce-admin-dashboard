@@ -9,7 +9,7 @@ function Products() {
 
   // Deletes a product from the backend and updates the UI immediately.
   function handleDelete(id) {
-    fetch(`http://localhost:3001/products/${id}`, {
+    fetch(`https://urbankicks-json-server.onrender.com/products/${id}`, {
       method: "DELETE",
     });
 

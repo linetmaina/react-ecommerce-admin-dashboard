@@ -23,7 +23,7 @@ function EditProduct() {
   function handleSubmit(e) {
     e.preventDefault();
 
-    fetch(`http://localhost:3001/products/${id}`, {
+    fetch(`https://urbankicks-json-server.onrender.com/products${id}`, {
       method: "PATCH",
       headers: {
         "Content-Type": "application/json",
